@@ -20,7 +20,6 @@ function dodajItem(id){
         text += "<li id='"+ i +"' value='"+ i +"' onclick='obrisiItem(this.id)'><a>" + toolbox[i] + "</a></li>";
     }
     document.getElementById("toolbox").innerHTML = text;
-    toolbox.reverse();
 }
 
 function obrisiItem(id){
