@@ -1,0 +1,16 @@
+#alat a:hover{
+    color:#4747bf;
+}
+
+div {
+    display: inline-table;
+    width: 25%;
+}
+
+body {
+    cursor: default;
+}
+
+#toolbox a:hover{
+    color:#ff6666;
+}
